@@ -3,12 +3,13 @@ package xml
 import (
 	"errors"
 	"fmt"
-	"github.com/jbowtie/gokogiri/help"
-	"github.com/jbowtie/gokogiri/xpath"
 	"io/ioutil"
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/NordSecurity/gokogiri/help"
+	"github.com/NordSecurity/gokogiri/xpath"
 )
 
 func badOutput(actual string, expected string) {
